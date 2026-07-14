@@ -1,0 +1,16 @@
+node_modules/
+out/
+dist/
+playwright-report/
+test-results/
+tests/screenshots/
+*.log
+.env
+.env.*
+session-state.json
+browser-profiles.json
+test-bridge.js
+test-cdp-cookies*.js
+test-cookies*.js
+.DS_Store
+Thumbs.db

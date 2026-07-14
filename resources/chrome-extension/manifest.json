@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Cockpit Cookie Bridge",
+  "version": "1.0.0",
+  "description": "Syncs Chrome cookies to Claude Cockpit browser",
+  "permissions": ["cookies", "alarms", "storage"],
+  "host_permissions": ["<all_urls>", "http://localhost:48721/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Cockpit Cookie Bridge"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

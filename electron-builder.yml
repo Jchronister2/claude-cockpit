@@ -1,0 +1,18 @@
+appId: com.jchronister.claude-cockpit
+productName: Claude Cockpit
+directories:
+  buildResources: build
+  output: dist
+files:
+  - "out/**/*"
+  - "node_modules/**/*"
+  - "!node_modules/.cache"
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
