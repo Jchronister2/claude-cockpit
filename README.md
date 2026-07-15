@@ -13,6 +13,18 @@ This project is independent and is not affiliated with or endorsed by Anthropic.
 - Shows current Git branches for active projects.
 - Supports an optional browser cookie bridge for users who explicitly enable it.
 
+## Screenshots
+
+These captures render the shipped desktop interface against synthetic projects, branches, commands, and session history. They show the workspace behavior without exposing local paths or private coding sessions.
+
+### Session workspace
+
+![Active coding session with terminal output and project history](docs/screenshots/session-workspace.png)
+
+### Project and session history
+
+![Project groups with resumable session history](docs/screenshots/project-history.png)
+
 ## Requirements
 
 - Node.js 20 or newer
